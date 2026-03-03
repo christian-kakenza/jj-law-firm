@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { practiceAreas } from '@/data/practiceAreas';
 import { attorneys } from '@/data/attorneys';
 
-const SITE_URL = 'https://jj-lawfirm.com';
+const SITE_URL = 'https://jj-law-firm.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['fr', 'en'];
