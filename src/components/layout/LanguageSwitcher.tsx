@@ -26,8 +26,9 @@ export default function LanguageSwitcher() {
       setOpen(false);
       return;
     }
-    router.replace(pathname, { locale: newLocale });
-    setOpen(false);
+    const currentPath = window.location.pathname;
+    const newPath = currentPath.replace(/^\/(fr|en)/, `/${newLocale}`);
+    window.location.href = newPath;
   };
 
   return (
