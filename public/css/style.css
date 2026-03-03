@@ -6137,7 +6137,7 @@ input[type=submit]:focus {
 }
 .site-footer .bottom-footer .built-by a {
   color: #fff !important;
-  text-decoration: underline !important;
+  text-decoration: none !important;
   font-weight: 700;
   cursor: pointer;
 }
