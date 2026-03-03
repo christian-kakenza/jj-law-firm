@@ -217,7 +217,7 @@ export default function Footer() {
           <div
             className="built-by"
             dangerouslySetInnerHTML={{
-              __html: `${t('footer.built_by')} <a href="https://ngeni-webapp.vercel.app/fr" target="_blank" rel="noopener noreferrer">NGENI.AI</a>`
+              __html: `${t('footer.built_by')} <a href="https://ngeni-webapp.vercel.app/fr" target="_blank" rel="noopener noreferrer">Ngeni.AI</a>`
             }}
           />
         </div>

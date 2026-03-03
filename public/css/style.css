@@ -6136,13 +6136,13 @@ input[type=submit]:focus {
   font-size: 12px;
 }
 .site-footer .bottom-footer .built-by a {
-  color: #cf4a1a !important;
+  color: #fff !important;
   text-decoration: underline !important;
   font-weight: 700;
   cursor: pointer;
 }
 .site-footer .bottom-footer .built-by a:hover {
-  color: #fff !important;
+  color: #ccc !important;
 }
 
 /* SUR MOBILE - METTRE NAVIGATION ET SERVICES COTE A COTE */
